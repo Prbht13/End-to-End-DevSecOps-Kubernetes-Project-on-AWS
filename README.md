@@ -4,10 +4,6 @@
 ## 📌 Project Objective
 A fully automated and secure three-tier application deployed on Kubernetes using DevSecOps practices.
 
-## 🧱 Project Architecture
-
-![Architecture Diagram](images/architecture.png)
-
 ## 🧰 Tech Stack
 
 - 🐳 Docker
