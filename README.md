@@ -20,12 +20,4 @@ A fully automated and secure three-tier application deployed on Kubernetes using
 - 🐘 PostgreSQL
 - 🌐 Nginx
 
-## 🧵 CI/CD Workflow
 
-```mermaid
-graph TD;
-    Dev[Developer Push Code] --> Jenkins;
-    Jenkins --> SonarQube;
-    Jenkins --> Trivy;
-    Jenkins --> Nexus;
-    Nexus --> Kubernetes;
